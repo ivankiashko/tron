@@ -1,0 +1,26 @@
+{
+  "name": "trx-auto-forwarder",
+  "version": "1.0.0",
+  "description": "Автоматическая пересылка TRX токенов при поступлении средств",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "tron",
+    "trx",
+    "cryptocurrency",
+    "auto-forward",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tronweb": "^5.3.2",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
